@@ -14,6 +14,49 @@ alias p="cd ~/Projects"
 alias g="git"
 alias h="history"
 alias j="jobs"
+alias oo="open ."
+alias be="bundle exec"
+alias ali="s ~/Projects/dotfiles/.aliases"
+
+alias pg-start="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"
+alias pg-stop="pg_ctl -D /usr/local/var/postgres stop -s -m fast"
+
+alias s_app="cd ~/Projects/rails-projects/sample_app"
+alias jb="cd ~/Sites/jonbanuelos.com/wp-content/themes/jb2"
+alias hk="cd ~/Sites/hollingsworth-staging/wp-content/themes/hklaw-2013"
+alias demo="cd ~/Sites/demo.tucsonlabs.com/wp-content/themes"
+alias tl="cd ~/Sites/tucsonlabs2013/wp-content/themes/fire_barrel"
+alias tss="cd ~/Sites/therapistsitesolutions.com/wp-content/themes/therapist-site-solutions"
+alias lofi="cd ~/Sites/portfolio"
+alias cv="cd ~/Sites/circovino/wp-content/themes/circovino2013"
+alias nr="cd ~/Sites/nourishingresults.com/wp-content/themes/nourishingresults"
+alias sky="cd ~/Sites/skyline-github/wp-content/themes/skyline-country-club-2013"
+alias flv="cd ~/Sites/flv/wp-content/themes/flv-responsive"
+alias pc="cd ~/Sites/pc.tucsonlabs.com/wp-content/themes/PotterConstruction"
+alias pcp="cd  ~/Sites/pc.tucsonlabs.com/wp-content/mu-plugins"
+alias asc="cd ~/Sites/ascentis"
+alias us="cd ~/Projects/urbanspoon/urbanspoon"
+alias senso="cd ~/Sites/sesno.tucsonlabs.com/wp-content/themes/senso-scientific"
+alias weather="WUNDERGROUND_KEY=b92a423dee1b586b FIVEHUNDRED_PX_KEY=MZYJHfIdpNHXBQrpOTZZMUnN8sqC8kR2eOX0HBzm grunt server"
+
+alias people="cd ~/Projects/fellswoop/people-premium-mobile"
+
+alias jp="jekyll-post"
+alias comp="compass watch scss"
+alias sites="cd ~/Sites"
+alias todo="cd ~/Sites/todo"
+alias snippets="cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User"
+alias todo="cd ~/Sites/todoYeo"
+alias invoices="cd ~/Documents/Finances && open ."
+alias bp='subl ~/.bash_profile'
+alias bpr='source ~/.bash_profile'
+alias gs='git status'
+alias ga='git add --all'
+alias gc='git commit -m'
+alias gap='git commit -p'
+alias gco='git checkout'
+alias gll='git pull'
+alias gp='git push'
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
