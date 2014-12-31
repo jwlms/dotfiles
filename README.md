@@ -1,6 +1,6 @@
-# Joshua's dotfiles forked from Mathias Bynens
+# Joshua's dotfiles
 
-![Screenshot of my shell prompt](http://i.imgur.com/EkEtphC.png)
+I forked these from Mathias Bynens. They're specific to my setup and I advise use with caution.
 
 ## Installation
 
