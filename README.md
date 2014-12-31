@@ -1,6 +1,6 @@
 # Joshua's dotfiles
 
-I forked these from Mathias Bynens. They're specific to my setup and I advise use with caution.
+I forked these from Mathias Bynens. They're specific to my setup and if you're going to use them, I advise you look through things first and use with caution. You're probably better off forking [Mathias' repo](https://github.com/mathiasbynens/dotfiles/issues).
 
 ## Installation
 
@@ -82,7 +82,7 @@ When setting up a new Mac, you may want to install some common [Homebrew](http:/
 ## Feedback
 
 Suggestions/improvements
-[welcome](https://github.com/mathiasbynens/dotfiles/issues)!
+[welcome](https://github.com/tucsonlabs/dotfiles/issues)!
 
 ## Author
 
