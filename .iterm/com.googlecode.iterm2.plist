@@ -19,7 +19,7 @@
 	<key>CheckTestRelease</key>
 	<true/>
 	<key>ClosingHotkeySwitchesSpaces</key>
-	<false/>
+	<true/>
 	<key>CommandSelection</key>
 	<true/>
 	<key>Control</key>
@@ -1793,11 +1793,13 @@
 	<key>Hotkey</key>
 	<true/>
 	<key>HotkeyChar</key>
-	<integer>49</integer>
+	<integer>96</integer>
 	<key>HotkeyCode</key>
-	<integer>18</integer>
+	<integer>50</integer>
 	<key>HotkeyModifiers</key>
-	<integer>1048840</integer>
+	<integer>524576</integer>
+	<key>HotkeyTermAnimationDuration</key>
+	<real>0.0</real>
 	<key>IRMemory</key>
 	<integer>4</integer>
 	<key>JobName</key>
@@ -2044,6 +2046,8 @@
 	<true/>
 	<key>MaxVertically</key>
 	<true/>
+	<key>NSFontPanelAttributes</key>
+	<string>1, 4</string>
 	<key>NSNavLastRootDirectory</key>
 	<string>~/Projects/dotfiles/.iterm</string>
 	<key>NSQuotedKeystrokeBinding</key>
@@ -2069,15 +2073,28 @@
 	<array/>
 	<key>NSTableView Sort Ordering KeyBingingTable</key>
 	<array/>
+	<key>NSToolbar Configuration Terminal Toolbar</key>
+	<dict>
+		<key>TB Display Mode</key>
+		<integer>1</integer>
+		<key>TB Icon Size Mode</key>
+		<integer>1</integer>
+		<key>TB Is Shown</key>
+		<integer>0</integer>
+		<key>TB Size Mode</key>
+		<integer>1</integer>
+	</dict>
 	<key>NSToolbar Configuration com.apple.NSColorPanel</key>
 	<dict>
 		<key>TB Is Shown</key>
 		<integer>1</integer>
 	</dict>
+	<key>NSWindow Frame NSFontPanel</key>
+	<string>769 110 445 269 0 0 1280 777 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>210 292 924 485 0 0 1280 777 </string>
+	<string>245 165 924 485 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>114 11 570 762 0 0 1280 777 </string>
+	<string>4 22 955 755 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>62 343 570 434 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -2605,11 +2622,11 @@
 			<key>Name</key>
 			<string>Default</string>
 			<key>Non Ascii Font</key>
-			<string>Monaco 12</string>
+			<string>Menlo-Regular 12</string>
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>Monaco 12</string>
+			<string>Menlo-Regular 12</string>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
 			<key>Prompt Before Closing 2</key>
@@ -3553,7 +3570,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2014-12-27T19:38:14Z</date>
+	<date>2014-12-30T18:01:13Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Show Toolbelt</key>
@@ -3563,7 +3580,7 @@
 	<key>ShowPaneTitles</key>
 	<false/>
 	<key>SmartPlacement</key>
-	<false/>
+	<true/>
 	<key>SplitPaneDimmingAmount</key>
 	<real>0.10000000149011612</real>
 	<key>SwitchTabModifier</key>
@@ -3604,6 +3621,7 @@
 	<integer>10</integer>
 	<key>ToolbeltTools</key>
 	<array>
+		<string>Paste History</string>
 		<string>Jobs</string>
 		<string>Notes</string>
 	</array>

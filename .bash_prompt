@@ -103,6 +103,14 @@ else
 	hostStyle="${orange}";
 fi;
 
+# prompt with ruby version
+# rbenv version | sed -e 's/ .*//'
+__rbenv_ps1 ()
+{
+  rbenv_ruby_version=`rbenv version | sed -e 's/ .*//'`
+  printf "Ruby version: %s" $rbenv_ruby_version
+}
+
 # Set the terminal title to the current working directory.
 PS1="\[\033]0;\w\007\]";
 PS1+="\[${bold}\]\n"; # newline
