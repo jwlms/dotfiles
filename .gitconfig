@@ -122,6 +122,8 @@
 
 	# Detect copies as well as renames
 	renames = copies
+	external = /Users/joshua/bin/git-diff-cmd.sh
+	tool = opendiff
 
 [help]
 
@@ -132,15 +134,12 @@
 
 	# Include summaries of merged commits in newly created merge commit messages
 	log = true
-
+	tool = opendiff
 [push]
 	default = matching
 [user]
 	name = Joshua Williams
 	email = josh@tucsonlabs.com
-[difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path =
-[mergetool "sourcetree"]
-	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+[difftool "opendiff"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true

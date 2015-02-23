@@ -58,6 +58,8 @@ alias gco='git checkout'
 alias gll='git pull'
 alias gp='git push'
 
+alias wpinstall='~/bin/wp_install.sh'
+
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
 	colorflag="--color"

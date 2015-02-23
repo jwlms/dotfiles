@@ -1,5 +1,6 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Flatland Dark (SL).tmTheme",
+	"theme": "Afterglow.sublime-theme",
 	"default_encoding": "UTF-8",
 	"default_line_ending": "unix",
 	"detect_indentation": false,
@@ -10,6 +11,7 @@
 		".DS_Store",
 		"Desktop.ini",
 		"*.pyc",
+		"*.sassc",
 		"._*",
 		"Thumbs.db",
 		".Spotlight-V100",
@@ -18,6 +20,7 @@
 	"folder_exclude_patterns":
 	[
 		".git",
+		"tmp",
 		"node_modules"
 	],
 	"font_face": "Monaco",
@@ -32,10 +35,14 @@
 	[
 		80
 	],
+	"vintage_ctrl_keys": true,
+	"save_on_focus_lost": true,
+	"soda_classic_tabs": false,
 	"show_encoding": true,
 	"show_line_endings": true,
 	"tab_size": 2,
-	"translate_tabs_to_spaces": false,
+	"tabs_medium": true,
+	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": true
 }
