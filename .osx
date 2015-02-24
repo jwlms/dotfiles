@@ -9,6 +9,13 @@ sudo -v
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 ###############################################################################
+# Sublime Text                                                                #
+###############################################################################
+
+# Install Sublime Text settings
+cp -r init/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings 2> /dev/null
+
+###############################################################################
 # General UI/UX                                                               #
 ###############################################################################
 
@@ -19,7 +26,7 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 #sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "0x6D746873"
 
 # Set standby delay to 24 hours (default is 1 hour)
-# sudo pmset -a standbydelay 86400
+sudo pmset -a standbydelay 86400
 
 # Disable the sound effects on boot
 sudo nvram SystemAudioVolume=" "
@@ -105,13 +112,10 @@ sudo systemsetup -setrestartfreeze on
 # Check for software updates daily, not just once per week
 defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
 
-<<<<<<< HEAD
 # Disable Notification Center and remove the menu bar icon
 # launchctl unload -w /System/Library/LaunchAgents/com.apple.notificationcenterui.plist 2> /dev/null
 # launchctl load -w /System/Library/LaunchAgents/com.apple.notificationcenterui.plist
 
-=======
->>>>>>> 41a45320486d6cea71d55b0a7a2569ede9b2e7f5
 # Disable smart quotes as they’re annoying when typing code
 defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
 
@@ -675,13 +679,6 @@ defaults write ~/Library/Preferences/org.gpgtools.gpgmail SignNewEmailsByDefault
 
 # Don’t show the preferences window on next start
 #defaults write com.irradiatedsoftware.SizeUp ShowPrefsOnNextStart -bool false
-
-###############################################################################
-# Sublime Text                                                                #
-###############################################################################
-
-# Install Sublime Text settings
-cp -r init/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings 2> /dev/null
 
 ###############################################################################
 # Transmission.app                                                            #

@@ -21,6 +21,7 @@ alias ali="s ~/Projects/dotfiles/.aliases"
 alias pg-start="pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start"
 alias pg-stop="pg_ctl -D /usr/local/var/postgres stop -s -m fast"
 
+alias practice="cd ~/Projects/practice"
 alias s_app="cd ~/Projects/rails-projects/sample_app"
 alias jb="cd ~/Sites/jonbanuelos.com/wp-content/themes/jb2"
 alias hk="cd ~/Sites/hollingsworth-staging/wp-content/themes/hklaw-2013"
