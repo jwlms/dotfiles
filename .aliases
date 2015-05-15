@@ -39,6 +39,8 @@ alias asc="cd ~/Sites/ascentis"
 alias us="cd ~/Projects/urbanspoon/urbanspoon"
 alias senso="cd ~/Sites/sesno.tucsonlabs.com/wp-content/themes/senso-scientific"
 alias weather="WUNDERGROUND_KEY=b92a423dee1b586b FIVEHUNDRED_PX_KEY=MZYJHfIdpNHXBQrpOTZZMUnN8sqC8kR2eOX0HBzm grunt server"
+alias tln="cd /Users/joshua/Projects/vvv/www/tucsonlabs.dev/cms/wp-content/themes/matapalo"
+alias tlstart="cd /Users/joshua/Projects/vvv/www/tucsonlabs.dev/cms/wp-content/themes/matapalo && gulp"
 
 alias people="cd ~/Projects/fellswoop/people-premium-mobile"
 
