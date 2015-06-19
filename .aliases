@@ -24,25 +24,11 @@ alias pg-stop="pg_ctl -D /usr/local/var/postgres stop -s -m fast"
 alias practice="cd ~/Projects/practice"
 alias s_app="cd ~/Projects/rails-projects/sample_app"
 alias jb="cd ~/Sites/jonbanuelos.com/wp-content/themes/jb2"
-alias hk="cd ~/Sites/hollingsworth-staging/wp-content/themes/hklaw-2013"
-alias demo="cd ~/Sites/demo.tucsonlabs.com/wp-content/themes"
-alias tl="cd ~/Sites/tucsonlabs2013/wp-content/themes/fire_barrel"
-alias tss="cd ~/Sites/therapistsitesolutions.com/wp-content/themes/therapist-site-solutions"
-alias lofi="cd ~/Sites/portfolio"
-alias cv="cd ~/Sites/circovino/wp-content/themes/circovino2013"
-alias nr="cd /Users/joshua/Projects/vvv/www/nourishingresults.dev"
-alias sky="cd ~/Sites/skyline-github/wp-content/themes/skyline-country-club-2013"
-alias flv="cd ~/Sites/flv/wp-content/themes/flv-responsive"
-alias pc="cd ~/Sites/pc.tucsonlabs.com/wp-content/themes/PotterConstruction"
-alias pcp="cd  ~/Sites/pc.tucsonlabs.com/wp-content/mu-plugins"
-alias asc="cd ~/Sites/ascentis"
+alias nr="cd /Users/joshua/Projects/vvv/www/nourishingresults.dev/wp-content/themes/nourishingresults-2015"
 alias us="cd ~/Projects/urbanspoon/urbanspoon"
-alias senso="cd ~/Sites/sesno.tucsonlabs.com/wp-content/themes/senso-scientific"
-alias weather="WUNDERGROUND_KEY=b92a423dee1b586b FIVEHUNDRED_PX_KEY=MZYJHfIdpNHXBQrpOTZZMUnN8sqC8kR2eOX0HBzm grunt server"
 alias tln="cd /Users/joshua/Projects/vvv/www/tucsonlabs.dev/cms/wp-content/themes/matapalo"
-alias tlstart="cd /Users/joshua/Projects/vvv/www/tucsonlabs.dev/cms/wp-content/themes/matapalo && gulp"
-
-alias people="cd ~/Projects/fellswoop/people-premium-mobile"
+alias kv="cd /Users/joshua/Projects/vvv/www/kernelvoodoo.dev"
+alias cvv="cd /Users/joshua/Projects/vvv"
 
 alias jp="jekyll-post"
 alias comp="compass watch scss"
@@ -166,7 +152,7 @@ alias badge="tput bel"
 # find . -name .gitattributes | map dirname
 alias map="xargs -n1"
 
-# One of @janmoesen’s ProTip™s
+# One of @janmoesen’s ProTip™sw
 for method in GET HEAD POST PUT DELETE TRACE OPTIONS; do
 	alias "$method"="lwp-request -m '$method'"
 done
