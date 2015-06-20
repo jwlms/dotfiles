@@ -139,11 +139,14 @@
 	# Include summaries of merged commits in newly created merge commit messages
 	log = true
 	tool = opendiff
+
 [push]
 	default = matching
+
 [user]
 	name = Joshua Williams
 	email = josh@tucsonlabs.com
+
 [difftool "opendiff"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
