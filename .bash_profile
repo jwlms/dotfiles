@@ -48,3 +48,6 @@ complete -W "NSGlobalDomain" defaults;
 complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal Twitter" killall;
 
 source ~/.git-completion.bash
+
+export NVM_DIR=~/.nvm
+  source $(brew --prefix nvm)/nvm.sh
