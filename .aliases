@@ -31,6 +31,7 @@ alias tln="cd /Users/joshua/Projects/vvv/www/tucsonlabs.dev/cms/wp-content/theme
 alias kv="cd /Users/joshua/Projects/vvv/www/kernelvoodoo.dev"
 alias cvv="cd /Users/joshua/Projects/vvv"
 alias tk="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/Tasks"
+alias tlp="cd /Users/joshua/Projects/tucsonlabs-payment-express"
 
 alias jp="jekyll-post"
 alias comp="compass watch scss"
