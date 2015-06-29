@@ -36,7 +36,6 @@ alias jp="jekyll-post"
 alias comp="compass watch scss"
 alias sites="cd ~/Sites"
 alias todo="cd ~/Sites/todo"
-alias snippets="cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User"
 alias todo="cd ~/Sites/todoYeo"
 alias invoices="cd ~/Documents/Finances && open ."
 alias bp='subl ~/.bash_profile'
