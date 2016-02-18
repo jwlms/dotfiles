@@ -1,3 +1,5 @@
+set clipboard=unnamed
+
 " Use the Solarized Dark theme
 set background=dark
 colorscheme solarized
@@ -77,7 +79,7 @@ set incsearch
 set laststatus=2
 
 " Enable mouse in all modes
-set mouse=a
+" set mouse=a
 
 " Disable error bells
 set noerrorbells
