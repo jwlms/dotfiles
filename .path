@@ -1,6 +1,0 @@
-# Use local node package
-export PATH=./node_modules/.bin/:$PATH
-
-# Alternatively alias to prefix to run local package from anywhere in
-# the project
-# alias npm-exec='PATH=$(npm bin):$PATH'
