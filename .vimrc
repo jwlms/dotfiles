@@ -6,6 +6,7 @@ set background=dark
 colorscheme solarized
 let g:solarized_termtrans=1
 
+set paste
 set nocompatible
 set backspace=indent,eol,start
 " allow unsaved background buffers and remember marks/undo for them
